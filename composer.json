@@ -1,13 +1,17 @@
 {
-	"name": "vinelab/http",
-	"description": "An http library developed for the laravel framework. aliases itself as HttpClient",
+	"name": "quibax/http",
+	"description": "Fork from vinelab/http with some adjustments for own use.",
 	"license": "MIT",
 	"keywords": ["laravel", "http", "client", "json", "xml", "api", "curl"],
 	"authors": [
 		{
 			"name": "Abed Halawi",
 			"email": "abed.halawi@vinelab.com"
-		}
+		},
+        {
+          "name": "Stijn Debakker",
+          "email": "stijn@quibax.com"
+        }
 	],
 
 	"require": {
