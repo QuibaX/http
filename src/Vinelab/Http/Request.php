@@ -99,7 +99,8 @@ Class Request implements RequestInterface{
 			CURLOPT_HTTPHEADER     => $this->headers,
 			CURLOPT_HEADER         => true,
 			CURLINFO_HEADER_OUT    => true,
-			CURLOPT_FOLLOWLOCATION => true,
+			CURLOPT_FOLLOWLOCATION => false,
+            CURLOPT_SSL_VERIFYHOST => false,
 			CURLOPT_MAXREDIRS      => 50
 		);
 
